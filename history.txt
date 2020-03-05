@@ -1,0 +1,500 @@
+  495  ls -l 
+  496  vim make_prediction.sh 
+  497  vim Makefile 
+  498  pwd
+  499  exit
+  500  pwd
+  501  cd Documents/
+  502  cd udacity_starter/
+  503  ls -l 
+  504  cd docker/
+  505  ls -l 
+  506  cd local_env/
+  507  ls -l 
+  508  cd final_project/
+  509  ls -l
+  510  cd DevOps_Microservices/
+  511  cd project-ml-microservice-kubernetes/
+  512  pwd
+  513  ls -l
+  514  python3 -m venv ~/.devops
+  515  source ~/.devops/bin/activate
+  516  vim Makefile 
+  517  vim requirements.txt 
+  518  make install
+  519  docker --version
+  520  hadolint 
+  521  minikube version
+  522  Minikube version
+  523  Minikube 
+  524  history | grep kube
+  525  ~473
+  526  minikube --version
+  527  mak lint
+  528  make lint
+  529  brew cask install minikube
+  530  kubectl version
+  531  vim Dockerfile 
+  532  more Makefile 
+  533  make lint
+  534  vim Dockerfile 
+  535  make lint
+  536  vim run_docker.sh 
+  537  vim make_prediction.sh 
+  538  vim run_docker.sh 
+  539  ./run_docker.sh 
+  540  vim run_docker.sh 
+  541  vim Dockerfile 
+  542  ls -l
+  543  ./run_docker.sh 
+  544  vim Dockerfile 
+  545  vim Makefile 
+  546  vim Dockerfile 
+  547  vim Dockerfile 
+  548  ls -l 
+  549  vim app.py 
+  550  vim Dockerfile 
+  551  vim Dockerfile 
+  552  vim Dockerfile 
+  553  vim run_docker.sh 
+  554  more run_docker.sh 
+  555  docker build --tag=api1 .
+  556  more run_docker.sh 
+  557  docker image ls
+  558  docker run -p 80 api1
+  559  docker run -p 8000:80 api1
+  560  vim run_docker.sh 
+  561  vim app.py 
+  562  docker run -p 8000:80 api1
+  563  pwd
+  564  docker run -p 8000:80 api1
+  565  docker run -p 8000:80 api1
+  566  docker run -p 8000:80 api1
+  567  docker run -p 8000:80 api1
+  568  docker run -p 8000:80 api1
+  569  docker run -p 8000:80 api1
+  570  docker run -p 8000:80 api1
+  571  docker run -p 8000:80 api1
+  572  ls -l 
+  573  docker run -p 8000:80 api1
+  574  ls -l 
+  575  docker run -p 8000:80 api1
+  576  docker run -p 8000:80 api1
+  577  ls -l
+  578  docker run -p 8000:80 api1
+  579  docker run -p 8000:80 api1
+  580  ls -l
+  581  docker run -p 8000:80 api1
+  582  ls -l 
+  583  ./app.py
+  584  more Makefile 
+  585  more Dockerfile 
+  586  pwd
+  587  ./app.py
+  588  docker run -p 8000:80 api1
+  589  docker run -p 8000:80 api1
+  590  docker run -p 8000:80 api1
+  591  ls -l 
+  592  ls -l 
+  593  ls -l 
+  594  ls -l 
+  595  docker run -p 8000:80 api1
+  596  docker run -p 8000:80 api1
+  597  docker run -p 8000:80 api1
+  598  docker run -p 8000:80 api1
+  599  docker run -p 8000:80 api1
+  600  docker run -p 8000:80 api1
+  601  history 
+  602  docker build --tag=api2 .
+  603  docker run -p 8000:80 api2
+  604  docker build --tag=api3 .
+  605  docker run -p 8000:80 api3
+  606  docker build --tag=api4 .
+  607  docker run -p 8000:80 api4
+  608  docker build --tag=api5 .
+  609  docker run -p 8000:80 api5
+  610  docker imagels
+  611  docker image ls
+  612  ls l 
+  613  ls -l 
+  614  docker image ls
+  615  docker inspect api5
+  616  docker inspect api5 | more
+  617  docker inspect --format='{{.LogPath}}' api5
+  618  docker image ls
+  619  q
+  620  minikube start
+  621  minikube
+  622  brew cask install minicube
+  623  brew cask install minikube
+  624  brew  install minikube
+  625  minikube start
+  626  kucectl conig view
+  627  kucectl config view
+  628  kubectl config view
+  629  vim run_kubernetes.sh 
+  630  history t| grep api5
+  631  history | grep api5
+  632  vim run_kubernetes.sh 
+  633  ./run_kubernetes.sh 
+  634  vim run_kubernetes.sh 
+  635  vim run_kubernetes.sh 
+  636  ./run_kubernetes.sh 
+  637  kubectl run -h
+  638  kubectl run -h | grep docker
+  639  vim run_kubernetes.sh 
+  640  vim run_kubernetes.sh 
+  641  vim run_kubernetes.sh 
+  642  ./run_kubernetes.sh 
+  643  more run_kubernetes.sh 
+  644  kubectl get pods --all-namespaces
+  645  kubectl get pods --all-namespaces
+  646  kubectl get pods --all-namespaces
+  647  kubectl get pods --all-namespaces
+  648  vim run_kubernetes.sh 
+  649  ls -al 
+  650  rm .run_kubernetes.sh.swp 
+  651  ls -al 
+  652  vim run_kubernetes.sh 
+  653  ./run_kubernetes.sh 
+  654  kubectl get pods --all-namespaces
+  655  more run_kubernetes.sh 
+  656  kubectl get pods --all-namespaces
+  657  kubectl get pods --all-namespaces
+  658  kubectl get pods --all-namespaces
+  659  vim run_kubernetes.sh 
+  660  kubernetes get namespaces
+  661  kubectl get namespaces
+  662  vim run_kubernetes.sh 
+  663  kubectl run api5=pod --image=api5 --port=8000 --generator=rum/v1
+  664  kubectl run api5=pod --image=api5 --port=8000 --generator=run/v1
+  665  kubectl run api5-pod --image=api5 --port=8000 --generator=run/v1
+  666  vim run_kubernetes.sh 
+  667  kubectl get pods|egrep -i "^NAME|api5
+  668  kubectl get pods|egrep -i "^NAME|api5"
+  669  kubectl get pods
+  670  kubectl describe pod api5-57555b67cf-hvb9q
+  671  vim run_kubernetes.sh 
+  672  vim run_docker.sh 
+  673  docjer run -h
+  674  docker run -h
+  675  docker run --help
+  676  cat run_kubernetes.sh 
+  677   kubectl run --help
+  678  vim run_docker.sh 
+  679  vim run_kubernetes.sh 
+  680  ./run_kubernetes.sh 
+  681  vim run_kubernetes.sh 
+  682  ./run_kubernetes.sh 
+  683  moe run_kubernetes.sh 
+  684  cat run_kubernetes.sh 
+  685  kubectl get pods --all-namespaces
+  686  kubectl get pods --all-namespaces
+  687  kubectl get pods --all-namespaces
+  688  kubectl delete node api5-57555b67cf-hvb9q
+  689  kubectl get odes
+  690  kubectl get nodes
+  691  kubectl delete pods api5-57555b67cf-hvb9q
+  692  kubectl get pods --all-namespaces
+  693  kubectl delete pods api5-1-6dd9b69d5f-njxq8
+  694  kubectl get pods --all-namespaces
+  695  kubectl delete pods api5-pod-z42ss
+  696  kubectl get pods --all-namespaces
+  697  kubectl delete pods api5-57555b67cf-wfptf
+  698  kubectl get pods --all-namespaces
+  699  kubectl get pods --all-namespaces
+  700  kubectl get pods --all-namespaces
+  701  kubectl get pods --all-namespaces
+  702  kubectl get pods --all-namespaces
+  703* kubectl 
+  704  kubectl get pods --all-namespaces
+  705  kubectl get pods --all-namespaces
+  706  kubectl get pods --all-namespaces
+  707  kubectl delete pods api5-1-6dd9b69d5f-mckks --grace-period=0 --force
+  708  kubectl get pods --all-namespaces
+  709  kubectl get pods --all-namespaces
+  710  kubectl get pods --all-namespaces
+  711  kubectl get pods --all-namespaces
+  712  kubectl get pods --all-namespaces
+  713  kubectl get pods --all-namespaces
+  714  kubectl get pods --all-namespaces
+  715  kubectl get pods --all-namespaces
+  716  kubectl get pods --all-namespaces
+  717  kubectl get pods --all-namespaces
+  718  kubectl describe pod api5-pod-rw4z2
+  719   cat run_docker.sh 
+  720  docker image ls
+  721  vim run_kubernetes.sh 
+  722  vim run_kubernetes.sh 
+  723  ./run_kubernetes.sh 
+  724  vim run_kubernetes.sh 
+  725  cat upload_docker.sh 
+  726  vim upload_docker.sh 
+  727  vim run_kubernetes.sh 
+  728  doscker image ls
+  729  docker image ls
+  730  more run_kubernetes.sh 
+  731  kubectl get pods --all-namespaces
+  732  kubectl get pods --all-namespaces
+  733  kubectl get pods --all-namespaces
+  734  kubectl get pods --all-namespaces
+  735  kubectl get pods --all-namespaces
+  736  kubectl get pods --all-namespaces
+  737  kubectl get pods --all-namespaces
+  738  kubectl get pods --all-namespaces
+  739  kubectl get pods --all-namespaces
+  740  kubectl get pods --all-namespaces
+  741  kubectl get pods --all-namespaces
+  742  kubectl get pods --all-namespaces
+  743  kubectl get pods --all-namespaces
+  744  kubectl get pods --all-namespaces
+  745  kubectl descibe api5-1-6dd9b69d5f-8qtzq
+  746  kubectl descibe pod api5-1-6dd9b69d5f-8qtzq
+  747  kubectl describe pod api5-1-6dd9b69d5f-8qtzq
+  748  cat run_docker.sh 
+  749  cat upload_docker.sh 
+  750  vim run_kubernetes.sh 
+  751  ./run_kubernetes.sh 
+  752  vim run_kubernetes.sh 
+  753  ./run_kubernetes.sh 
+  754  vim run_kubernetes.sh 
+  755  ./run_kubernetes.sh 
+  756  vim run_kubernetes.sh 
+  757  ./run_kubernetes.sh 
+  758  vim run_kubernetes.sh 
+  759  vim run_kubernetes.sh 
+  760  ./run_kubernetes.sh 
+  761  more run_kubernetes.sh 
+  762  kubectl get pods --all-namespaces
+  763  kubectl get pods --all-namespaces
+  764  kubectl get pods --all-namespaces
+  765  kubectl get pods --all-namespaces
+  766  kubectl get pods --all-namespaces
+  767  kubectl get pods --defauly
+  768  kubectl get pods --default
+  769  kubectl get pods --default-namespaces
+  770  kubectl get pods --all-namespaces
+  771  kubectl get pods --default-namespaces
+  772  kubectl get pods --all-namespaces
+  773  history | grep describe
+  774  kubectl describepod api5-1-6dd9b69d5f-8qtzq
+  775  kubectl describe pod api5-1-6dd9b69d5f-8qtzq
+  776  kubectvim run_kubernetes.sh 
+  777  vim run_kubernetes.sh 
+  778  ./run_kubernetes.sh 
+  779  more run_kubernetes.sh 
+  780  kubectl get pods --all-namespaces
+  781  kubectl get pods --all-namespaces
+  782  kubectl get pods --all-namespaces
+  783  kubectl get pods --all-namespaces
+  784  kubectl get pods --all-namespaces
+  785  kubectl get pods --all-namespaces
+  786  kubectl get pods --all-namespaces
+  787  kubectl get pods --all-namespaces
+  788  kubectl get pods --all-namespaces
+  789  kubectl get pods --all-namespaces
+  790  kubectl get pods --all-namespaces
+  791  kubectl get pods --all-namespaces
+  792  kubectl get pods --all-namespaces
+  793  kubectl get pods --all-namespaces
+  794  kubectl get pods --all-namespaces
+  795  vim run_kubernetes.sh 
+  796  ./run-k
+  797  ./run_kubernetes.sh 
+  798  vim run_kubernetes.sh 
+  799  ./run_kubernetes.sh 
+  800  vim run_kubernetes.sh 
+  801  ./run_kubernetes.sh 
+  802  vim run_kubernetes.sh 
+  803  ./run_kubernetes.sh 
+  804  more run_kubernetes.sh 
+  805  kubectl get pods --all-namespaces
+  806  kubectl get pods --all-namespaces
+  807  cat run_kubernetes.sh 
+  808  dockerpath=rgarlin/api5
+  809  docker login --username rgarlin --password Blake7416!
+  810  kubectl run api5-4 --image=rgarlin/api5
+  811* kubectl get pods --all-namespace
+  812  kubectl get pods --all-namespaces
+  813  kubectl get pods --all-namespaces
+  814  kubectl get pods --all-namespaces
+  815  kubectl get pods --all-namespaces
+  816  kubectl get pods --all-namespaces
+  817  kubectl get pods --all-namespaces
+  818  kubectl get pods --all-namespaces
+  819  kubectl get pods --all-namespaces
+  820  kubectl delete pods  api5-1-6dd9b69d5f-8qtzq
+  821  kubectl get pods --all-namespaces
+  822  cat run_kubernetes.sh 
+  823  kubectl describe pod api5-4-5ccdcf57d6-mzrmd 
+  824  kubectl describe pod api5-4-5ccdcf57d6-mzrmd 
+  825  kubectl describe pod api5-4-5ccdcf57d6-mzrmd 
+  826  kubectl describe pod api5-4-5ccdcf57d6-mzrmd 
+  827  kubectl run api5-5 --image=api5
+  828  kubectl get pods --all-namespaces
+  829  kubectl get pods --all-namespaces
+  830  kubectl get pods --all-namespaces
+  831  kubectl get pods --all-namespaces
+  832  kubectl get pods --all-namespaces
+  833  kubectl get pods --all-namespaces
+  834  kubectl get pods --all-namespaces
+  835  kubectl get pods --all-namespaces
+  836  kubectl get pods --all-namespaces
+  837  kubectl run api5-5 --image=rgarlin/api5
+  838  kubectl run api5-6 --image=rgarlin/api5
+  839  kubectl get pods --all-namespaces
+  840  kubectl get pods --all-namespaces
+  841  kubectl get pods --all-namespaces
+  842  kubectl get pods --all-namespaces
+  843  kubectl get pods --all-namespaces
+  844  kubectl get pods --all-namespaces
+  845  kubectl get pods --all-namespaces
+  846  kubectl get pods --all-namespaces
+  847  more run_kubernetes.sh 
+  848  docker run --name kubectl rgarlin/api5
+  849  docker run --name kubectl api5
+  850  vim run_kubernetes.sh 
+  851  ./run_
+  852  ./run_kubernetes.sh 
+  853  vim run_kubernetes.sh 
+  854  ./run_kubernetes.sh 
+  855  vim run_kubernetes.sh 
+  856  ./run_kubernetes.sh 
+  857  cat run_kubernetes.sh 
+  858  kubectl get pods --all-namespaces
+  859  kubectl get pods --all-namespaces
+  860  kubectl get pods --all-namespaces
+  861  kubectl get pods --all-namespaces
+  862  kubectl get pods --all-namespaces
+  863  kubectl get pods --all-namespaces
+  864  kubectl get pods --all-namespaces
+  865  kubectl get pods --all-namespaces
+  866  kubectl get pods --all-namespaces
+  867  kubectl get pods --all-namespaces
+  868  kubectl get pods --all-namespaces
+  869  kubectl get pods --all-namespaces
+  870  kubectl get pods --all-namespaces
+  871  kubectl get pods --all-namespaces
+  872  kubectl get pods --all-namespaces
+  873  kubectl get pods --all-namespaces
+  874  kubectl get pods --all-namespaces
+  875  kubectl get pods --all-namespaces
+  876  kubectl get pods --all-namespaces
+  877  kubectl get pods --all-namespaces
+  878  kubectl get pods --all-namespaces
+  879  kubectl get pods --all-namespaces
+  880  kubectl get pods --all-namespaces
+  881  kubectl get pods --all-namespaces
+  882  kubectl get pods --all-namespaces
+  883  kubectl get pods --all-namespaces
+  884  kubectl get pods --all-namespaces
+  885  kubectl get pods --all-namespaces
+  886  kubectl get pods --all-namespaces
+  887  kubectl get pods --all-namespaces
+  888  kubectl get pods --all-namespaces
+  889  kubectl get pods --all-namespaces
+  890  kubectl get pods --all-namespaces
+  891  kubectl get pods --all-namespaces
+  892  kubectl get pods --all-namespaces
+  893  kubectl get pods --all-namespaces
+  894  kubectl get pods --all-namespaces
+  895  kubectl get pods --all-namespaces
+  896  kubectl get pods --all-namespaces
+  897  kubectl get pods --all-namespaces
+  898  kubectl get pods --all-namespaces
+  899  kubectl get pods --all-namespaces
+  900  kubectl get pods --all-namespaces
+  901  kubectl get pods --all-namespaces
+  902  kubectl get pods --all-namespaces
+  903  kubectl get pods --all-namespaces
+  904  kubectl get pods --all-namespaces
+  905  kubectl get pods --all-namespaces
+  906  kubectl get pods --all-namespaces
+  907  kubectl get pods --all-namespaces
+  908  kubectl get pods --all-namespaces
+  909  kubectl get pods --all-namespaces
+  910  kubectl get pods --all-namespaces
+  911  kubectl get pods --all-namespaces
+  912  kubectl get pods --all-namespaces
+  913  kubectl get pods --all-namespaces
+  914  kubectl get pods --all-namespaces
+  915  more run_kubernetes.sh 
+  916  kubectl port-forward deployments/api5-7 8000:80
+  917  kubectl port-forward deployments/api5-7 8000:80
+  918  vim kubernetes.out.txt
+  919  pwd
+  920  mkdir .circleci
+  921  cd .circleci/
+  922  vim config.yml
+  923  vim config.yml
+  924  ls -l 
+  925  cd ..
+  926  ls -l 
+  927  ls -al 
+  928  ls -l 
+  929  vim upload_docker.sh 
+  930  vim run_kubernetes.sh 
+  931  history | grep docler.run
+  932  history | grep docker.run
+  933  vim run_kubernetes.sh 
+  934  history 
+  935  history  | uniq 
+  936  vim run_kubernetes.sh 
+  937  ckubectl port-forward deployments/api5-7 8000:80
+  938  kubectl get pods --all-namespaces
+  939  vim run_kubernetes.sh 
+  940  history 
+  941  history  | more
+  942  vim run_kubernetes.sh 
+  943  grep password *
+  944  echo "# DevOpsKubernetes" >> README.md
+  945  ls-l
+  946  ls -l
+  947  vim README.md 
+  948  git init
+  949  git add *
+  950  git commit -m "initial commit"
+  951  git remote add origin https://github.com/rgarlin/DevOpsKubernetes.git
+  952  git push -uorigin master
+  953  git push -u origin master
+  954  git add .circleci/
+  955  git commit -m "add circleci"
+  956  git push -u origin master
+  957  cd .circleci/
+  958  vim config.yml 
+  959  history | grep python3
+  960  vim config.yml 
+  961  history | grep activate
+  962  vim config.yml 
+  963  cd ..
+  964  git add .circleci/config.yml 
+  965  git commit -m "change pythonvenv"
+  966  git push -u origin master
+  967  vim config.yml 
+  968  cd .circleci/
+  969  vim config.yml 
+  970  cd ..
+  971  git commit -m "change pythonvenv to dev"
+  972  git add .circleci/config.yml 
+  973  git commit -m "change pythonvenv to dev"
+  974  git push -u origin master
+  975  cd .circleci/
+  976  vim config.yml 
+  977  cd ..
+  978  git add .circleci/config.yml 
+  979  vim upload_docker.sh 
+  980  vim run_kubernetes.sh 
+  981  history | grep kubectl
+  982  history | grep kubectl.run
+  983  history | grep docker.run.k
+  984  history | grep docker.run
+  985  history 
+  986  history | grep docker.run--
+  987  history | grep docker.run -
+  988  history | grep docker.run --
+  989  history | grep docker.run --k
+  990  history | grep docker.run \--
+  991  history | grep docker.run \-\-
+  992  vim run_kubernetes.sh 
+  993  docker run --name kubectl api5
+  994  history > history.txt
